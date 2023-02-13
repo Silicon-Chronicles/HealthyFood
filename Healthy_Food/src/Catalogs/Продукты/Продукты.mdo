@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0098f656-4973-4e7b-9113-9e4b5659ffa3">
+  <producedTypes>
+    <objectType typeId="675be651-0ad1-4e42-827b-ff2905092d9c" valueTypeId="6ec0216d-cf6f-42e2-811e-6e5457e73cac"/>
+    <refType typeId="225f9058-e986-4c05-acab-2537599086ad" valueTypeId="c91e9357-f15c-421f-b021-71863004970c"/>
+    <selectionType typeId="847a4599-c728-46e8-a2e3-49c17127f1d2" valueTypeId="66f192af-30b5-4454-86b2-f1eccd38d509"/>
+    <listType typeId="65528033-9f12-464b-a362-31e448ca82f9" valueTypeId="fa422c19-47ce-47ab-84f3-a63336cd7f4e"/>
+    <managerType typeId="1bff7a5e-2b4e-4e93-833f-d9335a6336d0" valueTypeId="02f02943-b91b-40c1-9c19-55bd6412ff60"/>
+  </producedTypes>
+  <name>Продукты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продукты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Продукты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Продукты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Продукт</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Продукты</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="efe042ad-408c-4de3-a1ce-4a611e9c33fb">
+    <name>Белки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Белки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8cbe775f-fb1c-4dc8-b006-8d517859d27d">
+    <name>Жиры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Жиры</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="966c7112-4c31-44e8-ab48-7985757d1e99">
+    <name>Углеводы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Углеводы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

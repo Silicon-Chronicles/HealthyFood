@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e635818-2f54-49e5-9c58-d0b960d7fc28">
+  <producedTypes>
+    <objectType typeId="b4430a6a-bad0-4cdd-85f7-7d55fe7ef560" valueTypeId="34801cea-9960-4397-aee5-07f7a0e33469"/>
+    <refType typeId="c6bebf3f-4c20-41eb-96e6-e69ae06c0691" valueTypeId="10199404-c326-4b21-89b1-ab42acaff7e0"/>
+    <selectionType typeId="228d69d5-a6ec-4b3a-9b79-2b77956fef14" valueTypeId="517df084-5ff1-4a7e-8038-016dda57e370"/>
+    <listType typeId="9e7e0b14-46d9-430d-b774-aef2d091e73f" valueTypeId="9187d955-37bb-4e88-b8bd-6cd32e13aa35"/>
+    <managerType typeId="8df2e54c-15eb-4d30-8ecf-4ca7a2618e01" valueTypeId="2c6c92bd-1892-40d3-855c-a80b638d47bb"/>
+  </producedTypes>
+  <name>ФизическоеЛицо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Физическое лицо</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ФизическоеЛицо.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ФизическоеЛицо.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Физическое лицо</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Физические лица</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ФизическоеЛицо.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="174fb997-5b48-4ae8-af82-7a6541145122">
+    <name>ДатаРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата рождения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6eebff5e-9840-4a3a-9991-64d18c25c54b">
+    <name>Пол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пол</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПолФизическогоЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4590537f-bb86-448a-be79-ea94af7d38ed">
+    <name>Рост</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рост (м)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="726a92c3-e76f-47a6-bbe7-30ed46bfe765">
+    <name>ТипАктивности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип активности</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыАктивности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c14fc598-ddac-45e6-bc5d-4efff6b486e7">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

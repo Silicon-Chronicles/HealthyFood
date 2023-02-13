@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="750da9f1-5a12-443c-bfb5-376e32bc82d4">
+  <producedTypes>
+    <selectionType typeId="6839cecd-4957-4630-ab1d-bc81aae6ed51" valueTypeId="2b7b12a9-b9c6-43e8-89fd-54ff0b4a392a"/>
+    <listType typeId="3351d80b-ef2c-4690-b6d4-18d86e6fca35" valueTypeId="2524a897-a078-4a2e-92dd-8706bb6f09fd"/>
+    <managerType typeId="bb7c9b42-079d-4418-9c1f-57855474e51d" valueTypeId="0e90ab58-0d7e-4803-9429-5d570fdfaa51"/>
+    <recordSetType typeId="cdf33559-95e8-4006-bd32-3146bca65abe" valueTypeId="9327b3b9-170a-40c3-b146-86aab2e2c765"/>
+    <recordKeyType typeId="ff18ce44-38bd-4427-9028-a272fd9e2dd7" valueTypeId="b495ef33-a209-40e4-8d73-ba416b07cf25"/>
+    <recordType typeId="dbd1d956-28a4-46e8-9356-53bb332b20f1" valueTypeId="7e408eac-4851-46f5-a794-a91b7e6630e8"/>
+    <recordManagerType typeId="6bac4f08-062a-42d9-a8f8-6adb36450b03" valueTypeId="b979b05e-9dcf-4b37-ad10-593dbaf3604f"/>
+  </producedTypes>
+  <name>РезультатыВзвешивания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты взвешивания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Взвешивание</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Взвешивания</value>
+  </listPresentation>
+  <resources uuid="2e94ca13-ac46-4d00-aecd-b819c745f9ab">
+    <name>Вес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4810701c-dd58-4395-b10b-b400c6329ef8">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическоеЛицо</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

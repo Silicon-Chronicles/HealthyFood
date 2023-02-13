@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbf47b0d-8f6e-4574-955f-394331d3b885">
+  <name>ЗдоровоеПитание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Здоровое питание</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ФизическоеЛицо</content>
+  <content>InformationRegister.РезультатыВзвешивания</content>
+  <content>CommonModule.ЗдоровоеПитание</content>
+  <content>Enum.ПолФизическогоЛица</content>
+  <content>Enum.ТипыАктивности</content>
+  <content>Catalog.Продукты</content>
+</mdclass:Subsystem>

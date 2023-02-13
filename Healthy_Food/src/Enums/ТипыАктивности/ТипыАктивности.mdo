@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc29e489-7918-4d7a-b902-b08536dd8ded">
+  <producedTypes>
+    <refType typeId="71174396-96b2-427f-b7e6-543f0153e8d4" valueTypeId="d88d0984-beef-45ef-a75f-9e1e9666fe2e"/>
+    <listType typeId="8c3c2e87-fb42-4ac3-a667-1feaf2ac9b10" valueTypeId="28590f4c-ca37-4879-8043-c6a6e406e9c9"/>
+    <managerType typeId="d20c0c71-e82a-4f5e-881b-a0140ad3f1c0" valueTypeId="93b65cf9-2e65-4f8b-84d4-f7242d082693"/>
+  </producedTypes>
+  <name>ТипыАктивности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы активности</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c59f849b-e2d3-43bb-88ec-67d9931d63d9">
+    <name>СидячийОбразЖизни</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сидячий образ жизни</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84139d27-051e-43d1-9a55-1e7d9c1a4e34">
+    <name>СлабаяАктивность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слабая активность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="49811ed1-22ac-4274-b59e-5ae469359f54">
+    <name>СредняяАктивность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средняя активность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="248b861a-8899-4a49-8aa1-f4cb9ffefaa0">
+    <name>ВысокаяАктивность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высокая активность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="415b454b-a971-42b1-a049-90a83ba4440c">
+    <name>ЭкстремальнаяАктивность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экстремальная активность</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
