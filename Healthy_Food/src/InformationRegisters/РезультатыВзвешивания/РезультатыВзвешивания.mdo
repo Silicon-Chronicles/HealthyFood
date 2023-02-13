@@ -54,7 +54,7 @@
       <value>Физическое лицо</value>
     </synonym>
     <type>
-      <types>CatalogRef.ФизическоеЛицо</types>
+      <types>CatalogRef.ФизическиеЛица</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

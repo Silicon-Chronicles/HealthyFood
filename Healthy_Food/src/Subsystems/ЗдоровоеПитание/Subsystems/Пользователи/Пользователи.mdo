@@ -7,6 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.ФизическоеЛицо</content>
+  <content>Catalog.ФизическиеЛица</content>
   <parentSubsystem>Subsystem.ЗдоровоеПитание</parentSubsystem>
 </mdclass:Subsystem>

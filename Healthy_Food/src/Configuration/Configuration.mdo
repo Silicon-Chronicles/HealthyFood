@@ -762,7 +762,7 @@
   <catalogs>Catalog.ТомаХраненияФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
-  <catalogs>Catalog.ФизическоеЛицо</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.Продукты</catalogs>
   <catalogs>Catalog.Рецепты</catalogs>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
