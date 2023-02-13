@@ -764,6 +764,7 @@
   <catalogs>Catalog.Файлы</catalogs>
   <catalogs>Catalog.ФизическоеЛицо</catalogs>
   <catalogs>Catalog.Продукты</catalogs>
+  <catalogs>Catalog.Рецепты</catalogs>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
   <enums>Enum.РазмерыБумаги</enums>
   <enums>Enum.ВариантыСжатияTIFF</enums>

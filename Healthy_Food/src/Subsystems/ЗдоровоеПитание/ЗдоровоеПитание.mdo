@@ -7,10 +7,10 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.ФизическоеЛицо</content>
   <content>InformationRegister.РезультатыВзвешивания</content>
   <content>CommonModule.ЗдоровоеПитание</content>
   <content>Enum.ПолФизическогоЛица</content>
   <content>Enum.ТипыАктивности</content>
-  <content>Catalog.Продукты</content>
+  <subsystems>Пользователи</subsystems>
+  <subsystems>Рецепты</subsystems>
 </mdclass:Subsystem>

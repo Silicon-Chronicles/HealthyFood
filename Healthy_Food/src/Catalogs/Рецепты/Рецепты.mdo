@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4eb922fd-a0af-47d8-8564-4ab32e7cf01e">
+  <producedTypes>
+    <objectType typeId="89bbdb2a-8a04-4571-a338-e37ddb0b1af8" valueTypeId="18fe3259-1924-4582-8461-0ae43643ebd2"/>
+    <refType typeId="110e0c53-50d4-438b-8931-5812e531b6b6" valueTypeId="b8af8232-c8f9-410b-8398-1388e82afae0"/>
+    <selectionType typeId="1074a116-eadf-4a6e-8d2b-a241d9f10d1b" valueTypeId="6b17d0c3-7b1b-40c9-a5ea-92f04e18a50f"/>
+    <listType typeId="e2a4624e-47db-4e1c-aa12-07f5aed2474e" valueTypeId="3c348f5e-9595-4ec7-b883-4047161188c6"/>
+    <managerType typeId="1660a12c-5fe3-471b-b955-dfb57c9e2720" valueTypeId="36311d9b-a3d1-45a7-abcf-991aed2f4b65"/>
+  </producedTypes>
+  <name>Рецепты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рецепты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Рецепты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Рецепты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Рецепты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="a9cfb88d-9a70-4d36-a5dd-d6ab26205dd9">
+    <name>ОписаниеПриготовления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание приготовления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="47de0914-34df-45c3-9c66-c03c221b38f6">
+    <producedTypes>
+      <objectType typeId="df5b04ac-8d69-4626-acb2-3e38b3b5c7b7" valueTypeId="869308dc-252d-4ab2-b33a-f1902c7e1fe9"/>
+      <rowType typeId="62418fad-208e-45cb-89db-049a92637df3" valueTypeId="4135b95d-0ffe-4c96-87ba-36fb7a040538"/>
+    </producedTypes>
+    <name>Ингридиенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ингридиенты</value>
+    </synonym>
+    <attributes uuid="51a3982c-b70c-4f43-8b26-d99047dde6fc">
+      <name>Продукт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Продукт</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Продукты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c01ca705-d334-4120-9e4c-746f165ceddb">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="78be6a72-6f02-4c38-9dec-eb592d8ba2cd">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

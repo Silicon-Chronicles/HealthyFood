@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d0d8556-8b96-47e3-a464-522a3280ac92">
+  <name>Рецепты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рецепты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Продукты</content>
+  <content>Catalog.Рецепты</content>
+  <parentSubsystem>Subsystem.ЗдоровоеПитание</parentSubsystem>
+</mdclass:Subsystem>
