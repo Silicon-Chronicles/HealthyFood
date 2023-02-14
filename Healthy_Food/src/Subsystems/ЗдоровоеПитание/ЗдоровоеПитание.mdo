@@ -11,6 +11,7 @@
   <content>CommonModule.ЗдоровоеПитание</content>
   <content>Enum.ПолФизическогоЛица</content>
   <content>Enum.ТипыАктивности</content>
+  <content>DataProcessor.ЗагрузкаДанныхИзФайла</content>
   <subsystems>Пользователи</subsystems>
   <subsystems>Рецепты</subsystems>
 </mdclass:Subsystem>
