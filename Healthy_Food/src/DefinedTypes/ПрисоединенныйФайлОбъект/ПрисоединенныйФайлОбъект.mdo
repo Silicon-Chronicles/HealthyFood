@@ -11,5 +11,8 @@
   <type>
     <types>CatalogObject.ВерсииФайлов</types>
     <types>CatalogObject.Файлы</types>
+    <types>CatalogObject.ФизическиеЛицаПрисоединенныеФайлы</types>
+    <types>CatalogObject.ПродуктыПрисоединенныеФайлы</types>
+    <types>CatalogObject.РецептыПрисоединенныеФайлы</types>
   </type>
 </mdclass:DefinedType>

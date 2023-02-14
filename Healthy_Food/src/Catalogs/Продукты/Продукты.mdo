@@ -39,6 +39,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Продукты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Продукты.Form.ФормаСписка</defaultListForm>
   <attributes uuid="efe042ad-408c-4de3-a1ce-4a611e9c33fb">
     <name>Белки</name>
     <synonym>
@@ -99,4 +101,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="92ca60f8-6108-41ea-ab9e-9d0c3ce27f2d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6e9e0410-1a0b-4563-b9c4-5abf523a3791">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

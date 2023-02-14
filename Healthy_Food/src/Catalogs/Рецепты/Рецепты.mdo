@@ -32,6 +32,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Рецепты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Рецепты.Form.ФормаСписка</defaultListForm>
   <attributes uuid="a9cfb88d-9a70-4d36-a5dd-d6ab26205dd9">
     <name>ОписаниеПриготовления</name>
     <synonym>
@@ -96,6 +97,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3a288a1a-367e-443e-8aca-d764161c5c6e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

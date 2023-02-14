@@ -375,6 +375,15 @@
   <content>
     <mdObject>Constant.ИспользоватьУдалениеПомеченныхОбъектов</mdObject>
   </content>
+  <content>
+    <mdObject>Catalog.ФизическиеЛицаПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПродуктыПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.РецептыПрисоединенныеФайлы</mdObject>
+  </content>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>

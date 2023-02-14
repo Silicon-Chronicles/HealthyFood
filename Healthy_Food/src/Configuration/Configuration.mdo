@@ -590,6 +590,7 @@
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайлов</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьСнятьПометкуУдаленияЗаметок</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьСтатусИзмененияПометкиУдаленияПользователя</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ОпределитьФормуПрисоединенногоФайла</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ЗаполнениеПараметровРаботыРасширений</scheduledJobs>
   <scheduledJobs>ScheduledJob.ИзвлечениеТекста</scheduledJobs>
   <scheduledJobs>ScheduledJob.КонтрольУдаленияПомеченныхОбъектов</scheduledJobs>
@@ -621,8 +622,8 @@
   <functionalOptions>FunctionalOption.ХранитьФайлыВТомахНаДиске</functionalOptions>
   <definedTypes>DefinedType.ВладелецДополнительныхСведений</definedTypes>
   <definedTypes>DefinedType.ВладелецФайлов</definedTypes>
-  <definedTypes>DefinedType.ВладелецПрисоединенныхФайловОбъект</definedTypes>
   <definedTypes>DefinedType.ВладелецПрисоединенныхФайлов</definedTypes>
+  <definedTypes>DefinedType.ВладелецПрисоединенныхФайловОбъект</definedTypes>
   <definedTypes>DefinedType.ВнешнийПользователь</definedTypes>
   <definedTypes>DefinedType.ВнешнийПользовательОбъект</definedTypes>
   <definedTypes>DefinedType.МестоХраненияФункциональныхОпций</definedTypes>
@@ -766,6 +767,8 @@
   <catalogs>Catalog.Продукты</catalogs>
   <catalogs>Catalog.Рецепты</catalogs>
   <catalogs>Catalog.ФизическиеЛицаПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.ПродуктыПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.РецептыПрисоединенныеФайлы</catalogs>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
   <enums>Enum.РазмерыБумаги</enums>
   <enums>Enum.ВариантыСжатияTIFF</enums>

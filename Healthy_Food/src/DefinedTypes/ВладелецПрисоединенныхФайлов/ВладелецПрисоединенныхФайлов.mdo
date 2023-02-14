@@ -11,5 +11,8 @@
   <type>
     <types>CatalogRef.ПапкиФайлов</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>CatalogRef.Продукты</types>
+    <types>CatalogRef.Рецепты</types>
   </type>
 </mdclass:DefinedType>
