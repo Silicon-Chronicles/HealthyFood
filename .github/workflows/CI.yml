@@ -29,7 +29,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.4.0
       - name: Conver to XML
-        run: $PATH_TO_RING/ring edt workspace export --project $GITHUB_WORKSPACE --configuration-files $RUNNER_TEMP/cf_xml --workspace-location $RUNNER_TEMP
+        run: $PATH_TO_RING/ring edt workspace export --project $GITHUB_WORKSPACE/HealthyFood --configuration-files $RUNNER_TEMP/cf_xml --workspace-location $RUNNER_TEMP
       - name: Compile 
         run: |
           $PATH_TO_IBCMD/ibcmd server config init --db-path=$RUNNER_TEMP/file-db --name=docsIB --out=$RUNNER_TEMP/file-db.yml
