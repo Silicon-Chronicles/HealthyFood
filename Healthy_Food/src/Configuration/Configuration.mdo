@@ -19,7 +19,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Alexum</vendor>
-  <version>0.0.0.1</version>
+  <version>0.0.0.3</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
