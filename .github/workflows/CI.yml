@@ -28,6 +28,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
         uses: actions/checkout@v3.4.0
+      - name: Check REF
+        run: echo $GITHUB.REF
       - name: Conver to XML
         run: $PATH_TO_RING/ring edt workspace export --project $GITHUB_WORKSPACE/Healthy_Food --configuration-files $RUNNER_TEMP/cf_xml --workspace-location $RUNNER_TEMP
       - name: Compile 
