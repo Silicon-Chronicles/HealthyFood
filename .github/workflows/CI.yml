@@ -40,4 +40,9 @@ jobs:
         with:
           name: ${{ github.event.repository.name }}.cf
           path: ${{ runner.temp }}/${{ github.event.repository.name }}.cf
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/v')
+        with:
+          files: ${{ runner.temp }}/${{ github.event.repository.name }}.cf
  
