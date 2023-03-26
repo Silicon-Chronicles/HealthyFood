@@ -16,8 +16,6 @@ env:
   PATH_TO_RING: /opt/1C/1CE/components/1c-enterprise-ring-0.11.10+2-x86_64
   PATH_TO_IBCMD: /opt/1cv8/x86_64/8.3.22.1750
 
-  # Allows you to run this workflow manually from the Actions tab
-
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
