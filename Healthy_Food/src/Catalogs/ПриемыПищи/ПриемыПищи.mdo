@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc65766e-4bb2-45c9-a060-eea4e75e1838">
+  <producedTypes>
+    <objectType typeId="022375ec-affb-4cb1-8499-f19195b42c3d" valueTypeId="37cba4dd-7691-4a16-bc36-87bec791c509"/>
+    <refType typeId="d6f35344-e425-42c9-b404-05a0ff8365cc" valueTypeId="8077024a-f2d3-4b6e-bff1-3bc09ac8f28b"/>
+    <selectionType typeId="2bbe74af-cbf9-48eb-9ae1-38116da1f166" valueTypeId="28dc0f6d-9ca8-4d40-aed7-6fe4dbbd59dc"/>
+    <listType typeId="10938438-449e-4238-a037-8894f640f7bb" valueTypeId="25e8b53f-aa51-4cf6-8eb5-8d764af40074"/>
+    <managerType typeId="404f54b7-e7bd-4023-b1da-16540e4fb36e" valueTypeId="0eab1de6-3207-4b5f-97e8-7fb1059b1002"/>
+  </producedTypes>
+  <name>ПриемыПищи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приемы пищи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПриемыПищи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПриемыПищи.Form.ФормаЭлемента</defaultObjectForm>
+  <tabularSections uuid="bad8f88b-3e5e-4b9d-aa78-848c955df49a">
+    <producedTypes>
+      <objectType typeId="53876660-9a7f-453c-bda1-f3721297c30e" valueTypeId="dc2ee162-a2c7-4f0a-a804-060d8df4fcb7"/>
+      <rowType typeId="4bd767a7-00c8-4ba9-99c6-755e5ed43efb" valueTypeId="8ad8632b-cc6f-47ff-977d-fb4c43bbe075"/>
+    </producedTypes>
+    <name>Продукты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукты</value>
+    </synonym>
+    <attributes uuid="68695333-91b0-418f-a94f-b558d27a7c9f">
+      <name>Продукт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Продукт</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Продукты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="2f0ed462-06de-4afc-a4d5-e2ce741ab083">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

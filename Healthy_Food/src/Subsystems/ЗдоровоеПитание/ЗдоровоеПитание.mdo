@@ -12,6 +12,7 @@
   <content>Enum.ПолФизическогоЛица</content>
   <content>Enum.ТипыАктивности</content>
   <content>DataProcessor.ЗагрузкаДанныхИзФайла</content>
+  <content>Catalog.ПриемыПищи</content>
   <subsystems>Пользователи</subsystems>
   <subsystems>Рецепты</subsystems>
 </mdclass:Subsystem>

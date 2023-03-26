@@ -769,6 +769,7 @@
   <catalogs>Catalog.ФизическиеЛицаПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ПродуктыПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.РецептыПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.ПриемыПищи</catalogs>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
   <enums>Enum.РазмерыБумаги</enums>
   <enums>Enum.ВариантыСжатияTIFF</enums>
